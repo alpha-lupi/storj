@@ -1,0 +1,105 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    /* display: flex; */
+    /* min-height: 100vh; */
+
+/* }  */
+
+.neviblue{
+    background: #02112E;
+    box-shadow: -1px 1px 2px rgba(67, 70, 74, 0.0001), -2px 2px 5px rgba(67, 86, 100, 0.123689);
+    height: 4.25 rem;
+}
+header.logo {
+    position: absolute;
+    color:#fff;
+    width: 93px;
+    height: 24px;
+    left: 28px;
+    top: 22px;
+}
+button ,.upload{
+    background-color: #133E9C;
+    color:#fff;
+    border:none;
+    padding: 1rem 3rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+.drop{
+    padding: 3rem 4rem;
+    border: 1px dashed #ddd;
+    color: #778699;
+    width: 100%;
+    border-radius: .7rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.file_head .color, .file_head .color a{
+    color: #3E84F7;
+    font-weight: 700;
+} 
+
+.no-color{
+    background-color: #0000;
+    border: 2px solid #133E9C;
+    color: #133E9C;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.file_details input[type=checkbox] {
+    border: 1px solid #C5CBDB;
+    
+}
+.files{
+    border-bottom: 1px solid #F5F8FB;
+    padding: 1rem 0;
+}
+.fa-folder {
+    color: #F7C544;
+    font-size: 1.5rem;
+}
+button.no-color:hover {
+    background-color: #133E9C;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+button:hover {
+    transform: scale(1.02);
+    transition: .3s ease-in-out;
+}
+.fa-trash:hover{
+    color: red;
+    cursor: pointer;
+    transform:rotate(10deg);
+    transition: .3s ease-in-out;
+}
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        width: 11rem;
+    }
+
+    button,.upload {
+        padding: .25rem .75rem;
+        border-radius: .4rem;
+        line-height: 2.25rem;
+    }
+    .main{
+        padding-left: 0px;
+        padding: 0 12px;
+      }
+
+  }
