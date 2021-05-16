@@ -7,29 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
-    <title> Storj Assignment</title>
+    <title>Storj Assignment</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
-<link rel="stylesheet" href="css/dropzone.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
 
-    <!-- Favicons -->
 
-<meta name="theme-color" content="#7952b3">
-
-
-    <style>
-
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
   </head>
   <body>
     
@@ -40,6 +24,9 @@
       <a href="#" class="navbar-brand d-flex align-items-center">
         <img src="img/logo.png" alt="">
       </a>
+      <div>
+        .yelow
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -49,17 +36,18 @@
 
 <main>
 
-  <section class="py-5 text-center container">
+  <section class="mt-32 mb-24 text-center container">
       <div class="row">
-          <div class="col-lg-10 col-md-10 col-xs-12 col-sm-12 d-flex justify-content-between mx-auto">
+          <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 d-flex justify-content-between mx-auto">
             <div class="logo"> <img src="img/logo_2nd.png" alt=""></div>
            
-            <button class="no-color"> <i class="fas fa-plus me-2"></i>  Create Folder</button>
+            <a class="no-color"> 
+               Create Folder</a>
           </div>
       </div>
-      <hr class="mb-2 mt-5 col-lg-10 col-md-10 mx-auto mb-sm-2">
-    <div class="row py-lg-5 py-md-5">
-      <div class="ccol-lg-10 col-md-10 mx-auto d-flex">
+      <hr class="mt-32 col-lg-8 col-md-10 mx-auto mb-sm-2">
+    <div class="row mt-32">
+      <div class="ccol-lg-8 col-md-8 mx-auto d-flex">
           <div class="drop d-flex justify-content-center">
               <p class="me-4 d-flex align-items-center m-0">Drag-n-drop your file or</p>
               <input type="file" id="files" class="hidden"/>
@@ -70,76 +58,82 @@
     </div>
   </section>
 
-  <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8 mx-auto p-xs-5 main">
+ 
     <div class="container">
-        <div class="file_head d-flex justify-content-between">
+      <div class="col-lg-8 col-md-8 col-xs-10 col-sm-10 mx-auto p-xs-5 main ">
+        <div class="file_head d-flex justify-content-between mb-32">
             <div class="">
-                <ul class="d-flex p-0">
+                <ul class="d-flex p-0 m-0">
                     <li class="me-3 "><b>Files</b></li>
-                    <li> <i class="fas fa-list"></i> <a href="#" >View</a></li>
+                    <li><a href="#" >  <i class="fas fa-list"></i> List View</a></li>
                 </ul>
             </div>
             <div class="">
-                <ul class="d-flex">  
-                    <li class="me-3 color"><i class="fas fa-download "></i>  <a href="#" >Download</a></li>
-                    <li class="color"><i class="fas fa-share-alt"></i>   <a href="#" >Share</a></li>
+                <ul class="d-flex p-0 m-0">  
+                    <li class="me-3 color"><a href="img/bdtssst34901okeiwerd.png" download > <i class="fas fa-download "></i>  Download</a></li>
+                    <li class="color">  <a href="" > <i class="fas fa-share-alt"></i> Share</a></li>
                 </ul>
             </div>
         </div>
         
-        <div class="file_details ">
-          <div class="files">
-            <ul class="d-flex justify-content-between">
-              <li class="w-25 "><b>Name</b></li>
-              <li class="d-flex justify-content-center"><b>Size</b></li>
-              <li class="d-flex justify-content-end"><b>Actions</b></li>
-            </ul>
-        </div>
-            <div class="files d-flex justify-content-between">
-
-              <li class="file_details  w-25 d-flex align-content-center align-items-center"">
+        <table class="w-100 ">
+          <th>Name</th>
+          <th>Size</th>
+          <th>Actions</th>
+          <tr class="files">
+            <td class="file_details ">
+              <li class="file_details  w-25 d-flex align-content-center align-items-center">
                 <input class="me-2" type="checkbox" name="" id=""> 
                 <img class="me-2"src="img/file.png" alt="">
-                <p class='d-flex align-items-center align-content-center m-0'>filename.jpg</p>
+                <p class='d-flex align-items-center align-content-center m-0'>bdtssst34901okeiwerd....jpg</p>
               </li>
-              <li class="d-flex   justify-content-center">35mb</li>
-              <li class="d-flex   justify-content-end"><i class="fas fa-trash"></i></li>
-            </ul>
-            </div>
-            <div class="files d-flex justify-content-between">
-
-              <li class="file_details  w-25 d-flex align-content-center align-items-center"">
+            </td>
+            <td>35mb</td>
+            <td><i class="fas fa-trash"></i></td>
+          </tr>
+          <tr class="files">
+            <td class="file_details ">
+              <li class="file_details  w-25 d-flex align-content-center align-items-center">
                 <input class="me-2" type="checkbox" name="" id=""> 
                 <img class="me-2"src="img/file.png" alt="">
-                <p class='d-flex align-items-center align-content-center m-0'>filename.jpg</p>
+                <p class='d-flex align-items-center align-content-center m-0'>bdtssst34901okeiwerd....jpg</p>
               </li>
-              <li class="d-flex   justify-content-center">35mb</li>
-              <li class="d-flex   justify-content-end"><i class="fas fa-trash"></i></li>
-            </ul>
-            </div>
-            <div class="files d-flex justify-content-between">
-
-              <li class="file_details  w-25 d-flex align-content-center align-items-center"">
+            </td>
+            <td>35mb</td>
+            <td><i class="fas fa-trash"></i></td>
+          </tr>
+          <tr class="files">
+            <td class="file_details ">
+              <li class="file_details  w-25 d-flex align-content-center align-items-center">
                 <input class="me-2" type="checkbox" name="" id=""> 
                 <img class="me-2"src="img/file.png" alt="">
-                <p class='d-flex align-items-center align-content-center m-0'>filename.jpg</p>
+                <p class='d-flex align-items-center align-content-center m-0'>bdtssst34901okeiwerd....jpg</p>
               </li>
-              <li class="d-flex   justify-content-center">35mb</li>
-              <li class="d-flex   justify-content-end"><i class="fas fa-trash"></i></li>
-            </ul>
-            </div>
-            
-            <div class="files d-flex justify-content-between">
-
-              <li class="file_details w-25 d-flex align-content-center align-items-center"">
+            </td>
+            <td>35mb</td>
+            <td><i class="fas fa-trash"></i></td>
+          </tr>
+          <tr class="files">
+            <td class="file_details ">
+              <li class="file_details  w-25 d-flex align-content-center align-items-center">
                 <input class="me-2" type="checkbox" name="" id=""> 
-              <i class="fas fa-folder me-2"></i>
-              <p class='d-flex align-items-center align-content-center m-0'> Research</p>
+                <i class="fas fa-folder me-2"></i>
+                <p class='d-flex align-items-center align-content-center m-0'> Research</p>
               </li>
-              <li class="d-flex   justify-content-center">35mb</li>
-              <li class="d-flex   justify-content-end"><i class="fas fa-trash"></i></li>
-            </ul>
-            </div>
+            </td>
+            <td>35mb</td>
+            <td><i class="fas fa-trash"></i></td>
+          </tr>
+        </table>
+        <ul class="d-flex justify-content-end pagination">
+          <li>1</li>
+          <li>2</li>
+          <li class="active">3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+        </ul>
+
         </div>
 
       </div>
@@ -147,20 +141,7 @@
   </div>
 
 </main>
-
-<footer class="text-muted py-5">
-  <div class="container">
- 
-  </div>
-</footer>
-
-
     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
-    <script>
-        var myDropzone = new Dropzone("div#myId", { url: "/file/post"});
-    </script>
-
-      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>      
   </body>
 </html>
